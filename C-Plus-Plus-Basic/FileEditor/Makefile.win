@@ -1,0 +1,27 @@
+# Project: File Editor Example
+# Makefile created by Dev-C++ 4.9.2.9
+
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = FileEditor.res
+OBJ  = Main.o $(RES)
+LIBS =  -L"C:\DEV-C++\lib" 
+INCS =  -I"C:\DEV-C++\include" 
+BIN  = FileEditor.exe
+CFLAGS = $(INCS)  -Wall -s -mwindows
+
+.PHONY: clean
+
+all: FileEditor.exe
+
+clean:
+	rm -f $(OBJ) $(BIN)
+
+FileEditor.exe: $(OBJ)
+	$(CC) $(OBJ) -o $(BIN) $(RES) $(LIBS) $(CFLAGS)
+
+Main.o: Main.c 
+	$(CC) -c Main.c -o Main.o $(CFLAGS)
+
+FileEditor.res: FileEditor.rc Menu.rc 
+	$(WINDRES) -i FileEditor.rc -I rc -o FileEditor.res -O coff 

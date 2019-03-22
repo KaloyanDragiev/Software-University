@@ -1,0 +1,27 @@
+# Project: Animation Example
+# Makefile created by Dev-C++ 4.9.3.1
+
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = Anim.res
+OBJ  = Main.o $(RES)
+LIBS =  -L"C:\DEV-C++\lib" 
+INCS =  -I"C:\DEV-C++\include" 
+BIN  = Anim.exe
+CFLAGS = $(INCS)  -Wall -s -mwindows
+
+.PHONY: clean
+
+all: Anim.exe
+
+clean:
+	rm -f $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(OBJ) -o "Anim.exe" $(RES) $(LIBS) $(CFLAGS)
+
+Main.o: Main.c 
+	$(CC) -c Main.c -o Main.o $(CFLAGS)
+
+Anim.res: 
+	$(WINDRES) -i ANIM.RC -I rc -o Anim.res -O coff 
