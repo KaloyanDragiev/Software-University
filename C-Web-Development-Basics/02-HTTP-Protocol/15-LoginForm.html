@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Form</title>
+    <style>
+        body{
+            font-size: 26px;
+        }
+        input[type='text'],input[type='password'] {
+            width : 200px;
+            height: 30px;
+            font-size: inherit;
+        }
+        label {
+            display: inline-block;
+            width: 120px;
+        }
+        input[type="submit"]{
+            padding: 10px;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+<form action="15-LoginForm.exe" method="POST">
+    <label for="username">Username: </label> <input type="text" id="username" name="user"><br>
+    <label for="password">Password: </label> <input type="password" id="password" name="pass"><br>
+    <input type="submit" value="Log in"><br>
+</form>
+</body>
+</html>

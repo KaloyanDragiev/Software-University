@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../../node_modules/jquery/dist/jquery.js"></script>
+</head>
+<body>
+GitHub username:
+<input type="text" id="username" value="testnakov" />
+<button onclick="loadRepos()">Load Repos</button>
+<ul id="repos"></ul>
+<script>
+    function loadRepos() {
+        $('#repos').empty();
+        let searchUsername = $('#username').val();
+        let getRequest = {
+            method: "GET",
+            url:`https://api.github.com/users/${searchUsername}/repos`,
+            success: populateRepoList,
+            error: () => $('#repos').append('<li>Error</li>')
+        };
+        $.ajax(getRequest);
+
+        function populateRepoList(data) {
+            for (let repo of data){
+                $('#repos')
+                    .append($('<li>')
+                        .append($('<a>')
+                            .attr('href', repo.html_url)
+                            .text(repo.full_name)));
+            }
+        }
+    }
+</script>
+</body>
+</html>

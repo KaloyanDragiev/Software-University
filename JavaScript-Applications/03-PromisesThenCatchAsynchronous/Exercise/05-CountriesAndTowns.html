@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CountriesAndTowns</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <style>
+        #results {
+            background-color: #FFFFFF;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        #results tr {
+            background-color: #AAAAAA;
+            font-size: 1.5vw;
+        }
+
+        #results tr:nth-child(odd) {
+            background-color: #808080;
+        }
+
+        #results tr:first-child {
+            background-color: #000000;
+            color: #FFFFFF;
+            font-weight: bold;
+            font-size: 2vw;
+        }
+
+        #results tr th {
+            padding: 1vw;
+        }
+
+        #results tr td {
+            transition: font-size 0.2s;
+        }
+    </style>
+</head>
+<body>
+<h2>Add New Country</h2>
+<label for="name">Country Name: </label>
+<input type="text" id="name">
+<input type="button" value="Create" id="btnSubmit">
+<div id="editCountryDiv" style="display: none">
+    <label for="editCountryName">New Name: </label>
+    <input type="text" id="editCountryName">
+    <input type="hidden" id="countryToEditId">
+    <input type="button" value="Edit" id="btnEditCountry">
+</div>
+
+<table id="results"></table>
+<h3>Country Towns:</h3>
+<table id="countryTowns"></table>
+<script src="05-CountriesAndTowns.js"></script>
+<script>
+    $(document).ready(attachEvents)
+</script>
+</body>
+</html>

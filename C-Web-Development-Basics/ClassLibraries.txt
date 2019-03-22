@@ -1,0 +1,14 @@
+Data
+--Context
+--Models
+ServiceLayer
+--Services
+App
+--Controllers
+--Security
+----SignInManager
+--Utilities
+----Constants
+Models
+--ViewModels
+--BindingModels

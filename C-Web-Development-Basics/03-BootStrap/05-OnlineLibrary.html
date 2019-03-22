@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Library</title>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+</head>
+<body>
+<div class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand">Library</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="">C# Books</a></li>
+            <li><a href="">Java Books</a></li>
+        </ul>
+        <form class="navbar-form navbar-left">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search for a book...">
+                <div class="input-group-btn">
+                    <button class="btn btn-default" type="submit">Go!</button>
+                </div>
+            </div>
+        </form>
+        <div class="nav navbar-right">
+            <ul class="nav navbar-nav">
+                <li><a href="#">Hello, <span style="color:blue">Log in</span></a></li>
+                <li><a href="#"><img src="images/shopping-cart.png" height="30" width="30"/>
+                    <button class="btn btn-danger" style="transform: translate(-50%,-50%); font-size: 10px; margin: 10px -5px 0px; padding: 0px 2px">2</button></a></li>
+                <li>
+                    <a href="#">
+                        <img height="20px" src="http://www.777flags.com/modules/PDdownloads/images/screenshots/UK_flag_download_free_Great_Britain_flag_image_128x128.png" alt="United Kingdom Flag">
+                        <img height="10px" src="http://media02.statarea.com/images/flags/country/27.gif">
+                    </a>
+                   </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="navbar navbar-left">
+    <div class="container-fluid">
+        <ul class="nav  nav-pills nav-stacked">
+            <li class="active"><a href="">Subscription Process</a></li>
+            <li><a href="">General Information</a></li>
+            <li><a href="">Contacts</a></li>
+        </ul>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="card-deck">
+            <div class="card col-sm-3 thumbnail" style="margin:10px">
+                <img class="card-img-top" src="images/book.png" alt="Book Image">
+                <div class="card-block">
+                    <h3 class="card-title">Programming Fundamentals C#</h3>
+                    <p class="card-text"><strong>45</strong> copies available</p>
+                </div>
+                <ul class="list-group">
+                    <img src="images/rating.png" height="23" width="100"/><br>
+                    <a href="#">Details</a>
+                </ul>
+                <div class="card-block">
+                    <a href="#" class="card-link"><button class="btn btn-info">Borrow</button></a>
+                    <a href="#" class="card-link"><button class="btn btn-default">Add to Cart</button></a>
+                </div>
+                <p class="card-text"><small class="text-muted">Last time borrowed 3 mins ago</small></p>
+            </div>
+            <div class="card col-sm-3 thumbnail" style="margin:10px">
+                <img class="card-img-top" src="images/book.png" alt="Book Image">
+                <div class="card-block">
+                    <h3 class="card-title">Programming Fundamentals Java</h3>
+                    <p class="card-text"><strong>3</strong> copies available</p>
+                </div>
+                <ul class="list-group">
+                    <img src="images/rating.png" height="23" width="100"/><br>
+                    <a href="#">Details</a>
+                </ul>
+                <div class="card-block">
+                    <a href="#" class="card-link"><button class="btn btn-info">Borrow</button></a>
+                    <a href="#" class="card-link"><button class="btn btn-default">Add to Cart</button></a>
+                </div>
+                <p class="card-text"><small class="text-muted">Last time borrowed 5 hours ago</small></p>
+            </div>
+            <div class="card col-sm-3 thumbnail" style="margin:10px">
+                <img class="card-img-top" src="images/book.png" alt="Book Image">
+                <div class="card-block">
+                    <h3 class="card-title">Основи на програмирането C#</h3>
+                    <p class="card-text"><strong>3</strong> copies available</p>
+                </div>
+                <ul class="list-group">
+                    <img src="images/rating.png" height="23" width="100"/><br>
+                    <a href="#">Details</a>
+                </ul>
+                <div class="card-block">
+                    <a href="#" class="card-link"><button class="btn btn-info">Borrow</button></a>
+                    <a href="#" class="card-link"><button class="btn btn-default">Add to Cart</button></a>
+                </div>
+                <p class="card-text"><small class="text-muted">Last time borrowed 1 day ago</small></p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div style="margin-left: 44%">
+            <ul class="pagination">
+                <li class="page-item">
+                    <a class="page-link disabled" href="#" tabindex="-1">Previous</a>
+                </li>
+                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<footer class="footer">
+    <div class="container">
+        <p class="text-muted text-center">All rights reserved &copy; 2017</p>
+    </div>
+</footer>
+<script src="bootstrap-3.3.7-dist/jquery-3.1.1.min.js"></script>
+<script src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+</body>
+</html>

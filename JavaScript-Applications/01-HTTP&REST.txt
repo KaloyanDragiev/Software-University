@@ -1,0 +1,44 @@
+01 - GET - api.github.com/users/testnakov/repos
+02 - GET - api.github.com/repos/testnakov/test-nakov-repo/issues/1
+03 - POST - https://api.github.com/repos/testnakov/test-nakov-repo/issues
+	Body - raw - JSON(application/json)
+	Authorization
+{
+	"title":"test issue number 131241"	}
+04 - GET - https://first-project-2571f.firebaseio.com/books.json
+05 - GET - https://first-project-2571f.firebaseio.com/books/1.json
+06 - POST - https://first-project-2571f.firebaseio.com/books.json
+	Body - raw - JSON(application/json)
+	{
+    "author": "Chuck Palahniuk",
+    "title": "Fight Club"	
+}
+07 - PATCH - https://first-project-2571f.firebaseio.com/books/-KpBXVnoyhFGukGhazFi.json
+	{"title":"Year 1981","author":"Author Changed"}
+08 - PATCH - https://first-project-2571f.firebaseio.com/books/-KpBXVnoyhFGukGhazFi.json
+	{"author":"New author was assigned"}
+09 - GET - https://baas.kinvey.com/appdata/kid_BJKF6QYBZ
+	Authorization - appKey: appSecret
+10 - GET - https://baas.kinvey.com/appdata/kid_BJKF6QYBZ/posts
+	Authorization - appKey: appSecret
+11 - POST - https://baas.kinvey.com/appdata/kid_BJKF6QYBZ/posts/
+	Authorization - user: password
+	{
+	"Body":"new post body",
+	"Title":"new title"	
+}
+12 - DELETE - https://baas.kinvey.com/appdata/kid_BJKF6QYBZ/posts/596bbaa3aaff309d20987d07
+	Authorization - user: password
+13 - PUT - https://baas.kinvey.com/appdata/kid_BJKF6QYBZ/posts/596bbc9fe37359542c7524ff
+	ONLY USER THAT HAS CREATED THE ENTITY CAN EDIT/DELETE IT!!!
+	Authorization - user: password
+	{
+	"Title":"Third Title NEW NEW NEW",
+	"Body":"Modified  NEW NEW NEW"
+}
+
+14 - POST - https://baas.kinvey.com/user/kid_BJKF6QYBZ/login
+	Authorization - user: password
+{
+	"username": "petar.dimitrov",
+	"password": passsssssssss   	}

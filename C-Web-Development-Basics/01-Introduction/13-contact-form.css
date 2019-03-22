@@ -1,0 +1,17 @@
+form{
+    width: 280px;
+    background: #EEE;
+    padding: 5px;
+}
+
+input, select {
+    float:right;
+    width: 60%;
+}
+
+input[type="submit"]{
+    float: none;
+    margin-left: 110px;
+    width: auto;
+    padding: 5px 15px;
+}

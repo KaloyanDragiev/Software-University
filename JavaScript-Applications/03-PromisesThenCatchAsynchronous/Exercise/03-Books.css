@@ -1,0 +1,20 @@
+#books {
+    max-width: 700px;
+}
+
+input {
+    max-width:200px;
+    margin: 5px;
+}
+
+label {
+    min-width:70px;
+}
+
+table, tr, th, td {
+    text-align: center;
+}
+
+#editBookForm {
+    display: none;
+}

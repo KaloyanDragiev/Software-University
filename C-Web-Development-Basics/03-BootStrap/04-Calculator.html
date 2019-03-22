@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+</head>
+<body>
+<h1>Less Bootstrap, more styling. Colors handpicked from .doc. Meh...</h1>
+<h2>Used btn bootstrap class for divs. Not cool.</h2>
+<div class="container-fluid" style="background-color: #EFEEED">
+    <div class="row">
+        <div class="col-sm-4"><input class="form-control text-right" type="search" placeholder="0" style="margin: 10px"/></div>
+        <div class="btn text-center col-sm-2" style="background-color: #CF4647; color:white; margin: 10px 10px 10px 50px">Clear</div>
+        <div class="btn text-center col-sm-2" style="background-color: #379F7A; color:white; margin: 10px">=</div>
+    </div>
+    <div class="row">
+        <div class="btn text-center col-sm-2" style="background-color: #0275D8; color:white; margin: 10px">7</div>
+        <div class="btn text-center col-sm-2" style="background-color: #0275D8; color:white; margin: 10px">8</div>
+        <div class="btn text-center col-sm-2" style="background-color: #0275D8; color:white; margin: 10px">9</div>
+        <div class="btn text-center col-sm-2" style="background-color: #014C8C; color:white; margin: 10px">X</div>
+    </div>
+    <div class="row">
+        <div class="btn text-center col-sm-2" style="background-color: #0275D8; color:white; margin: 10px">4</div>
+        <div class="btn text-center col-sm-2" style="background-color: #0275D8; color:white; margin: 10px">5</div>
+        <div class="btn text-center col-sm-2" style="background-color: #0275D8; color:white; margin: 10px">6</div>
+        <div class="btn text-center col-sm-2" style="background-color: #014C8C; color:white; margin: 10px">/</div>
+    </div>
+    <div class="row">
+        <div class="btn text-center col-sm-2" style="background-color: #0275D8; color:white; margin: 10px">1</div>
+        <div class="btn text-center col-sm-2" style="background-color: #0275D8; color:white; margin: 10px">2</div>
+        <div class="btn text-center col-sm-2" style="background-color: #0275D8; color:white; margin: 10px">3</div>
+        <div class="btn text-center col-sm-2" style="background-color: #014C8C; color:white; margin: 10px">+</div>
+    </div>
+    <div class="row">
+        <div class="btn text-center col-sm-2" style="background-color: #014C8C; color:white; margin: 10px">&pm;</div>
+        <div class="btn text-center col-sm-2" style="background-color: #0275D8; color:white; margin: 10px">0</div>
+        <div class="btn text-center col-sm-2" style="background-color: #014C8C; color:white; margin: 10px">.</div>
+        <div class="btn text-center col-sm-2" style="background-color: #014C8C; color:white; margin: 10px">-</div>
+    </div>
+</div>
+<br><br><br><br><br><br>
+<h1>Using tables, bootstrap only. Colors not matching. Ugly borders appear.</h1>
+<h2>Used mix button colouring by combining one color with active class </h2>
+<table class="table" style="background-color: #EFEEED">
+    <tr>
+        <td class="col-sm-6" colspan="2"><input class="form-control text-right" type="search" placeholder="0"/></td>
+        <td class="col-sm-3"><button class="btn btn-danger btn-block">Clear</button></td>
+        <td class="col-sm-3"><button class="btn btn-success btn-block">=</button></td>
+    </tr>
+    <tr>
+        <td class="col-sm-3"><button class="btn btn-info active btn-block">7</button></td>
+        <td class="col-sm-3"><button class="btn btn-info active btn-block">8</button></td>
+        <td class="col-sm-3"><button class="btn btn-info active btn-block">9</button></td>
+        <td class="col-sm-3"><button class="btn btn-primary active btn-block">X</button></td>
+    </tr>
+    <tr>
+        <td class="col-sm-3"><button class="btn btn-info active btn-block">4</button></td>
+        <td class="col-sm-3"><button class="btn btn-info active btn-block">5</button></td>
+        <td class="col-sm-3"><button class="btn btn-info active btn-block">6</button></td>
+        <td class="col-sm-3"><button class="btn btn-primary active btn-block">/</button></td>
+    </tr>
+    <tr>
+        <td class="col-sm-3"><button class="btn btn-info active btn-block">1</button></td>
+        <td class="col-sm-3"><button class="btn btn-info active btn-block">2</button></td>
+        <td class="col-sm-3"><button class="btn btn-info active btn-block">3</button></td>
+        <td class="col-sm-3"><button class="btn btn-primary active btn-block">+</button></td>
+    </tr>
+    <tr>
+        <td class="col-sm-3"><button class="btn btn-primary active btn-block">&pm;</button></td>
+        <td class="col-sm-3"><button class="btn btn-info active btn-block">0</button></td>
+        <td class="col-sm-3"><button class="btn btn-primary active btn-block">.</button></td>
+        <td class="col-sm-3"><button class="btn btn-primary active btn-block">-</button></td>
+    </tr>
+</table>
+<script src="scripts/jquery-3.1.1.min.js"></script>
+<script src="scripts/bootstrap.min.js"></script>
+</body>
+</html>

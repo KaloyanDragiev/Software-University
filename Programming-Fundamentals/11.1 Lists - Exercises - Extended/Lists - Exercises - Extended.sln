@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTemplate1", "MyTemplate1\MyTemplate1.csproj", "{415F9EEE-A5FF-415C-A7A7-12CCABDBE190}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Track Downloader", "02. Track Downloader\02. Track Downloader.csproj", "{2F5B3625-B313-4D7E-9773-90087DB254A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Equal Sum After Extraction", "03. Equal Sum After Extraction\03. Equal Sum After Extraction.csproj", "{86B618C3-0AF2-42A8-AEC3-04A3AC97ED15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Flip List Sides", "04. Flip List Sides\04. Flip List Sides.csproj", "{CCA64438-E224-423E-9454-DC4694601B01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Tear List in Half", "05. Tear List in Half\05. Tear List in Half.csproj", "{802A260A-B6A8-4E51-87BA-FA849EDCDDF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.  Stuck Zipper", "06.  Stuck Zipper\06.  Stuck Zipper.csproj", "{43F45CEE-10AE-455A-A575-3C79BA51FDE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Remove Elements at Odd Positions", "01. Remove Elements at Odd Positions\01. Remove Elements at Odd Positions.csproj", "{852F1995-5467-43CF-B56C-91BC582903D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{415F9EEE-A5FF-415C-A7A7-12CCABDBE190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{415F9EEE-A5FF-415C-A7A7-12CCABDBE190}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{415F9EEE-A5FF-415C-A7A7-12CCABDBE190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{415F9EEE-A5FF-415C-A7A7-12CCABDBE190}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F5B3625-B313-4D7E-9773-90087DB254A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F5B3625-B313-4D7E-9773-90087DB254A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F5B3625-B313-4D7E-9773-90087DB254A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F5B3625-B313-4D7E-9773-90087DB254A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86B618C3-0AF2-42A8-AEC3-04A3AC97ED15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86B618C3-0AF2-42A8-AEC3-04A3AC97ED15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86B618C3-0AF2-42A8-AEC3-04A3AC97ED15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86B618C3-0AF2-42A8-AEC3-04A3AC97ED15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCA64438-E224-423E-9454-DC4694601B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCA64438-E224-423E-9454-DC4694601B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCA64438-E224-423E-9454-DC4694601B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCA64438-E224-423E-9454-DC4694601B01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{802A260A-B6A8-4E51-87BA-FA849EDCDDF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{802A260A-B6A8-4E51-87BA-FA849EDCDDF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{802A260A-B6A8-4E51-87BA-FA849EDCDDF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{802A260A-B6A8-4E51-87BA-FA849EDCDDF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43F45CEE-10AE-455A-A575-3C79BA51FDE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43F45CEE-10AE-455A-A575-3C79BA51FDE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43F45CEE-10AE-455A-A575-3C79BA51FDE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43F45CEE-10AE-455A-A575-3C79BA51FDE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{852F1995-5467-43CF-B56C-91BC582903D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{852F1995-5467-43CF-B56C-91BC582903D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{852F1995-5467-43CF-B56C-91BC582903D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{852F1995-5467-43CF-B56C-91BC582903D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

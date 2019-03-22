@@ -1,0 +1,61 @@
+<main class="col-4 offset-4 text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="text-center">
+                    <h1 class="display-3">Add Game</h1>
+                </div>
+                <br/>
+                <form method="post" id="new-game-form">
+                    <div class="form-group row">
+                        <label for="name" class="form-control-label">Title</label>
+                        <input type="text" maxlength="100" minlength="4" id="name" name="name" class="form-control" placeholder="Enter Game Name" />
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="desc" class="form-control-label">Description</label>
+                        <textarea id="desc" class="form-control" placeholder="Enter Game Description" minlength="30" name="description"></textarea>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="thumbnail" class="form-control-label" >Thumbnail</label>
+                        <input type="url" id="thumbnail" required="required" name="thumbnail" class="form-control" placeholder="Enter URL to Image" />
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="price" class="form-control-label">Price</label>
+                        <div class="input-group">
+
+                            <input type="number" step="0.01" min="0" id="price" name="price" class="form-control" placeholder="Enter Price" />
+                            <span class="input-group-addon" id="addon2">&euro;</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="size" class="form-control-label">Size</label>
+                        <div class="input-group">
+
+                            <input type="number" step="0.1" min="0" id="size" name="size" class="form-control" placeholder="Enter Size" />
+                            <span class="input-group-addon" id="addon3">GB</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="video" class="form-control-label">YouTube Video URL</label>
+                        <div class="input-group">
+                            <span class="input-group-addon" id="addon">https://www.youtube.com/watch?v=</span>
+                            <input type="text" class="form-control" name="youtubeid" id="video" minlength="11" maxlength="11" />
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="date" class="form-control-label">Release Date</label>
+                        <input type="date" id="date" class="form-control" name="releasedate" placeholder="dd/MM/yyyy" />
+                    </div>
+                    <input type="submit" id="btn-add-game" class="btn btn-outline-success btn-lg btn-block" value="Add Game" />
+                </form>
+                <br/>
+            </div>
+        </div>
+    </div>
+</main>

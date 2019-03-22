@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="04-Books.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4 col-sm-offset-1" id="addBookForm">
+            <form class="form-horizontal">
+                <label>ISBN</label>
+                <input type="number" class="isbn" class="form-control" style="display:inline"><br>
+                <label>Title</label>
+                <input type="text" class="title" class="form-control" style="display:inline"><br>
+                <label>Author</label>
+                <input type="text" class="author" class="form-control" style="display:inline"><br>
+            </form>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-offset-2">
+            <button id="addBook" class="btn btn-success">Create Book</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <table id="books" class="table"></table>
+        </div>
+        <div class="col-sm-4">
+            <form class="form-horizontal" id="editBookForm">
+                <label>ISBN</label>
+                <input type="number" class="isbn" class="form-control" style="display:inline"><br>
+                <label>Title</label>
+                <input type="text" class="title" class="form-control" style="display:inline"><br>
+                <label>Author</label>
+                <input type="text" class="author" class="form-control" style="display:inline"><br>
+                <input type="hidden" id="bookId">
+                <button id="editBook" class="btn btn-primary">Edit Book</button>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="04-Books.js"></script>
+<script src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+<script>attachEvents()</script>
+</body>
+</html>

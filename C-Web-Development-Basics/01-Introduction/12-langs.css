@@ -1,0 +1,14 @@
+body{
+    background: #EEE;
+    line-height: 1.6em;
+    font-size: 24pt;
+}
+p{
+    width: 400px;
+}
+.progLang{
+    border: 1px solid #AAA;
+    border-radius: 8px;
+    background-color: #CCC;
+    padding : 4px;
+}

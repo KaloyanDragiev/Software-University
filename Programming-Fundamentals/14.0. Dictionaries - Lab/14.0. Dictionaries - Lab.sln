@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Odd Occurrences", "MyTemplate1\01. Odd Occurrences.csproj", "{6BC92DF5-D5A0-4253-8766-D1DDC0A93705}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Count Real Numbers", "02. Count Real Numbers\02. Count Real Numbers.csproj", "{2715BD7F-B05D-4DB4-A95C-5708790AC8FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BC92DF5-D5A0-4253-8766-D1DDC0A93705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BC92DF5-D5A0-4253-8766-D1DDC0A93705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BC92DF5-D5A0-4253-8766-D1DDC0A93705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BC92DF5-D5A0-4253-8766-D1DDC0A93705}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2715BD7F-B05D-4DB4-A95C-5708790AC8FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2715BD7F-B05D-4DB4-A95C-5708790AC8FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2715BD7F-B05D-4DB4-A95C-5708790AC8FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2715BD7F-B05D-4DB4-A95C-5708790AC8FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
